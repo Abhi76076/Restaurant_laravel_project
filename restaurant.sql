@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 11, 2025 at 07:06 AM
+-- Generation Time: Mar 07, 2025 at 08:51 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -153,11 +153,14 @@ INSERT INTO `menu` (`id`, `name`, `description`, `price`, `image`, `status`, `cr
 (2, 'Pestry', 'It is type of cake food.', 5, 'menu_images/Afu7b6uJnPvBUJUqJOdbz2fDV6oPeVOWxEhvIkS4.jpg', 1, NULL, '2025-01-21 11:23:48', NULL, '2025-01-21 11:23:48'),
 (3, 'Pasta', 'It is Chinas food.', 6, 'menu_images/XQIASFIoWxAngAWODB5thrNVmnaf3wK31OMZroYT.jpg', 1, NULL, '2025-01-21 11:25:04', NULL, '2025-01-21 11:25:04'),
 (4, 'Coffee', 'This is Hot Coffe', 5, 'menu_images/P9rqeFFGWekuevVhEHb2QVdVtoTxwybzcs2t7EXO.jpg', 1, NULL, '2025-01-22 06:06:54', NULL, '2025-01-22 06:06:54'),
-(5, 'Fried Rice', 'This is Fried Rice', 10, 'menu_images/B36WbmdiX0Rgt6iEPWJzOFy7dYZdVkobN7ZyANlS.jpg', 1, NULL, '2025-01-22 06:08:08', NULL, '2025-01-22 06:08:08'),
-(6, 'Panner Pakoda', 'This is delicious Recipe.', 10, 'menu_images/Za2XSEOeRwC8hOZHDTFn3Icmomv7QGVwFtkCZfXX.jpg', 1, NULL, '2025-01-22 06:21:55', NULL, '2025-01-22 06:21:55'),
+(5, 'Fried Rice', 'This is Fried Rice', 10, 'menu_images/B36WbmdiX0Rgt6iEPWJzOFy7dYZdVkobN7ZyANlS.jpg', 9, NULL, '2025-01-22 06:08:08', NULL, '2025-03-07 07:31:17'),
+(6, 'Panner Pakoda', 'This is delicious Recipe.', 10, 'menu_images/Za2XSEOeRwC8hOZHDTFn3Icmomv7QGVwFtkCZfXX.jpg', 9, NULL, '2025-01-22 06:21:55', NULL, '2025-03-07 07:31:14'),
 (7, 'Sandwich', 'This is type of bread and salads.', 4, 'menu_images/ozDP1KHZyWoqcaUn8xq4EzXcHwFIUm1xl1pTjOfM.jpg', 9, NULL, '2025-01-22 06:25:33', NULL, '2025-01-22 07:11:34'),
 (8, 'Maggie', 'It is type of cake food.', 5, 'menu_images/WKcEj5UtT6V5Q6XcmrTwIxwZcVx4L8Qz5fD4LvQ6.jpg', 9, NULL, '2025-01-28 10:32:55', NULL, '2025-01-28 10:34:44'),
-(9, 'Frenc Fry', 'It is Potato French fry', 4, 'menu_images/ohFljqxfJqM9Ojqei8UlfgDXxLpAU0gMnSztKHv1.jpg', 1, NULL, '2025-01-31 04:53:41', NULL, '2025-01-31 04:53:41');
+(9, 'Frenc Fry', 'It is Potato French fry', 4, 'menu_images/ohFljqxfJqM9Ojqei8UlfgDXxLpAU0gMnSztKHv1.jpg', 9, NULL, '2025-01-31 04:53:41', NULL, '2025-03-06 07:44:35'),
+(10, 'Parle-G', 'It is delicious Biscuite', 5, 'menu_images/9H5O2ta21WplCoWSo3kWVeb5XZafambJag2nq0sb.jpg', 9, NULL, '2025-03-07 06:05:48', NULL, '2025-03-07 06:49:27'),
+(11, 'ghfhj', 'qrzttygNH', 5, 'menu_images/DjHu8nBWCkYQLc4oI62byM8VXqr9TX5zPlMVRVJx.jpg', 9, NULL, '2025-03-07 06:12:55', NULL, '2025-03-07 06:49:24'),
+(12, 'Grapes', 'It is delicious Grapes', 5, 'menu_images/1741332796_grapes.jpg', 1, NULL, '2025-03-07 07:33:16', NULL, '2025-03-07 07:33:16');
 
 -- --------------------------------------------------------
 
@@ -212,8 +215,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('fF0uSxW1soW9buedkPtlfoSkqSmv3axkK9jjee4w', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiQ3RoS3l6enI4S3NISkF1UU4xWTVKSDduQXEzR3hpVXRTUTFQTDFGNSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1738819790),
-('lr5xTXsUxG1ne3lgXrau8EAZT8vInKxE6gOBAESn', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiR0FzcnRBbklMZWxycnN3alpxRXlBZlZ4dHZTOWp0Q1lzajh0Rkp3biI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjY6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9tZW51Ijt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==', 1738555978);
+('QRrd6F9SWIzpPj7EAlaClCN4EtZzwcdIK5znhmyj', NULL, '127.0.0.1', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiRTQxcVRlUzZyT0NLbDhqTGMySmNYYzZJbWw0TmRac3FrN3VRVXV2SSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjY6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9tZW51Ijt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==', 1741333406);
 
 -- --------------------------------------------------------
 
@@ -358,7 +360,7 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT for table `menu`
 --
 ALTER TABLE `menu`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `migrations`
