@@ -20,8 +20,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             @foreach($menuItems as $item)
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img alt="{{ $item->name }}" class="w-full h-48 object-cover"
-                    src="{{ asset('public/'.$item->image) }}" />
+                <img alt="{{ $item->name }}" class="w-full h-48 object-cover" src="{{ asset($item->image) }}" />
                 <div class="p-4">
                     <h3 class="text-xl font-bold">{{ $item->name }}</h3>
                     <p class="mt-2 text-gray-600">{{ $item->description }}</p>
