@@ -56,8 +56,8 @@ restaurant-website/
 ├── routes/
 │   └── web.php
 ├── screenshots/
-│    |── home.blade.php
-│    ├── menu.blade.php
+│    |── home.png
+│    ├── menu.png
 ├── .env
 ├── composer.json
 ├── artisan
