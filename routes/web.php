@@ -5,7 +5,7 @@ use App\Http\Controllers\RestaurantController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\Auth\LoginController;
-use App\Http\Controllers\Auth\ForgotPasswordController; // ✅ Import added
+use App\Http\Controllers\Auth\ForgotPasswordController; // Import added
 
 // Default Home Route
 Route::get('/', function () {
@@ -37,6 +37,6 @@ Route::resource('/pages', RestaurantController::class);
 Route::resource('/menu', MenuController::class);
 
 // Cart Routes
-Route::get('cart', [MenuController::class, 'cart'])->name('cart');
+Route::get('/menu', [MenuController::class, 'cart'])->name('cart');
 Route::post('/cart/add/{itemId}', [MenuController::class, 'add'])->name('cart.add');
 Route::post('/cart/clear', [MenuController::class, 'clearCart'])->name('cart.clear');
