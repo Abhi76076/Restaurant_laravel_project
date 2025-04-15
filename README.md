@@ -4,7 +4,7 @@ A fully responsive and modern restaurant website built using **Laravel (PHP)**, 
 
 ---
 
-## 📸 Screenshots
+## 📸 Website Lookup
 
 **Home Page**
 
